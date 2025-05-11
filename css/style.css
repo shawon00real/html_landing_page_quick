@@ -1,0 +1,177 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*Glogal css*/
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	color: #3f3d56;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+/*Header css start*/
+header{
+	border-bottom: 2px solid #ECEEF2;
+	
+}
+header .logo{
+	    width: 70%;
+}
+.nav-item{
+	font-size: 18px;
+    font-weight: 500;
+    color: #333 !important;
+    margin: 0px 7px;;
+}
+/*Header css end*/
+
+/*Banner css start*/
+.banner-area{
+	padding: 75px 0px;
+	text-align: center;
+}
+.banner-area h1{
+	font-weight: 600px;
+	font-size: 62px;
+	line-height: 72px;
+}
+.banner-area h1 span{
+	display: block;
+	color: #008AFF;
+}
+.banner-area p{
+	font-size: 18px;
+    padding: 10px 251px;
+    line-height: 35px;
+}
+/*Banner css End*/
+
+/*Stories css start*/
+.stories{
+	padding: 40px;
+}
+.stories h2{
+	text-align: right;
+    font-size: 50px;
+    font-weight: 600;
+    color: #F15767;
+}
+.stories p{
+	font-size: 18px;
+    color: #3F3D56;
+    padding-left: 255px;
+    line-height: 30px;
+}
+.stories h1{
+	font-size: 56px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.stories h1 span{
+	display: block;
+}
+/*Stories css end*/
+
+/*Features section start*/
+
+.features-section{
+	padding: 70px 0;
+}
+.features-section img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+}
+.features-section .f-one{
+    background-color: #FDEBED;
+}
+.features-section .f-two{
+    background-color: #EBF9F4;
+}
+.features-section .f-three{
+    background-color: #FFF6E5;
+}
+.features-section .features{
+	padding: 40px 0px;
+}
+.features-section .features h1{
+	padding: 30px 0px 7px;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 37px;
+}
+.features-section .features p{
+    padding: 0px 36px;
+    line-height: 25px;
+}
+
+/*Features section end*/
+
+/*Footer section start*/
+footer{
+	background-color: #008AFF;
+	padding: 30px 0px;
+}
+footer p{
+	color: #eee;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*Footer section end*/
+
+/*Mobile device*/
+
+@media ( min-width:320px ) and ( max-width: 576px ){
+    
+    .banner-area h1{
+	    font-size: 45px;
+	    line-height: 56px;
+	    font-weight: 600;}
+       
+    .banner-area p {
+	    font-size: 15px;
+	    padding: 20px 5px;
+	    line-height: 26px;}
+    
+    .banner-area img{
+        width: 80%;
+        padding: 20px 0px 0px;}
+
+    .stories h2 {
+	    text-align: center;
+	    font-size: 50px;
+	    font-weight: 600;
+	    color: #F15767;}
+
+	.stories h1 {
+	    font-size: 35px;
+	    font-weight: 700;
+	    line-height: 45px;
+	    text-align: center;
+	    padding-top: 15px;}
+
+	.stories p {
+	    font-size: 17px;
+	    color: #3F3D56;
+	    line-height: 27px;
+	    padding-left: 0px;}
+
+    .features-section {
+        padding: 27px 0;}
+
+
+	.features-section .features {
+	    padding: 20px 0px;
+	    margin-bottom: 20px;}
+
+	 footer {
+    background-color: #008AFF;
+    padding: 24px 0px;}
+
+}
